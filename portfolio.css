@@ -3,10 +3,98 @@
     padding: 0;
 }
 
+body{
+  width: 1440px;
+  margin: auto;
+}
 
-.raleway_normal{
+.raleway_normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
+/* global style */
+.btn_style {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn_style:hover{
+  box-shadow: 0 0 10px #888efb, 0 0 20px #888efb;
+  color: rgb(1, 7, 64);
+  transition: 0.6s;
+
+}
+
+.Primary_Color{
+  color: #4E47FF;
+}
+
+.font_title{
+  color: #252432;
+}
+
+/* navbare sytyle */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+  
+}
+
+nav >h2{
+  font-size: 35px;
+  font-weight: 800;
+  background:linear-gradient(45deg, #11cb8d, #2575fc);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding-left: 5px;
+  border-radius: 15px 0;
+}
+
+h2 >.nv_logo{
+  font-weight: bolder;
+  color: #ffffff;
+  font-weight: 800;
+  padding-right:5px ;
+  padding-top: 1px;
+ 
+}
+
+/* banner area */
+
+.banner_bg{
+  background-image: url(Assets/Hero-bg.png);
+   height: 700px;
+ 
+}
+
+.banner_tex{
+    text-align: center;
+    width: 910px;
+    height: 240px;
+    margin: auto;
+    border: 2px solid #252432;
+   
+}
+
+.banner_tex >h3{
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.btn_style{
+  align-items: center;
+}
