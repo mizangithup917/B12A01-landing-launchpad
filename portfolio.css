@@ -183,6 +183,93 @@ h2 >.nv_logo{
 
 /* user say------------ */
 
+.user_area{
+  width: 1140px;
+  height: 340px;
+  margin: auto;
+  /* border: 2px solid brown; */
+}
+
+.user_area >h2{
+  font-size: 42px;
+  font-weight: bold;
+  margin: 100px 0 50px 0;
+  color: #252432;
+  text-align: center;
+}
+
 .user_contaener{
   display: flex;
+  gap: 20px;
 }
+
+.user_card{
+  padding: 24px;
+  background-color: #ffffff;
+  width: 365px;
+  box-shadow: 0 0 15px #7e7d8b2b;
+  border-radius: 15px;
+}
+
+.user_card >h3{
+  padding: 24px 0 10px 0;
+  color:#252432 ;
+ 
+}
+
+.user_card >p{
+  padding:0 40px 24px 0;
+  color: #303030;
+}
+
+.Reviewer_name{
+  display: flex;
+}
+.re_img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.name_re{
+  padding: 10px;
+}
+
+.name_re >h6{
+  font-weight: bold;
+  color: #757575;
+}
+
+.name_re >p{
+  color: #a0a0a0;
+  font-size: 10px;
+  
+}
+
+/* focus area------------- */
+
+.focus_area{
+  width: 1140px;
+  margin: auto;
+  margin-top: 140px;
+  text-align: center;
+  background-color: #fffefe;
+}
+
+.focus_text >h3{
+  font-size: 50px;
+  padding: 70px 0 20px 0;
+  font-weight: bold;
+  color: #000000;
+}
+
+.focus_text >p{
+  padding-bottom: 20px;
+}
+.focus_image{
+  padding-top: 20px;
+  width: 840px;
+  height: 365px;
+  border-radius: 50px;
+  margin-bottom: 70px;
+  
+ }
