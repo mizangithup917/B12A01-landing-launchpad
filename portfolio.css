@@ -273,3 +273,126 @@ h2 >.nv_logo{
   margin-bottom: 70px;
   
  }
+
+ /* from area style */
+
+ .from_area{
+      width: 1140px;
+      margin: auto;
+      padding: 50px 0px;
+      display: flex;
+      gap: 40px;
+     
+ }
+
+ .from{
+  width: 100%;
+  text-align: center;
+  margin-left: 30px;
+ }
+.from_text{
+   width: 100%;
+
+}
+.from_text >h3{
+  font-size: 80px;
+  font-weight: bold;
+  margin-right: 10px;
+  
+}
+
+  input[type="text"],textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+  transition: border 0.3s ease;
+}
+.from_samp{
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: left;
+  
+}
+
+.from .btn_style{
+  margin-top: 10px;
+  padding:20px 245px;
+  font-size: 30px;
+}
+/* footer area */
+
+footer{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.footer_logo{
+  width: 500px;
+  margin: auto;
+  padding-top: 140px;
+  text-align: center;
+}
+
+.footer_logo >h2{
+  
+  font-size: 100px;
+  font-weight: 800;
+  background:linear-gradient(45deg, #11cb8d, #2575fc);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding-left: 5px;
+  border-radius: 30px 0;
+}
+
+.footer_logo >.nv_logo{
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: 800;
+    
+}
+
+.footer_tex >p{
+  width: 530px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.manu_bar {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+  
+}
+
+.manu_bar >ul{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  
+}
+.manu_bar >ul >li{
+  list-style: none;
+ 
+}
+.manu_bar >ul >li >a{
+  text-decoration: none;
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+  color: #8987A1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.manu_bar >ul >li >a:hover{
+  color: #2575fc;
+  
+}
