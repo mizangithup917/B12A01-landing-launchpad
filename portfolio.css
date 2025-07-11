@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    align-items: center;
 }
 
-body{
-  width: 1440px;
-  margin: auto;
-}
-
+/* add fonts */
 .raleway_normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-inter_font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -74,17 +79,17 @@ h2 >.nv_logo{
 
 .banner_bg{
   background-image: url(Assets/Hero-bg.png);
-   height: 700px;
+  width: 100%;
+  height: 600px;
  
 }
 
 .banner_tex{
-    text-align: center;
     width: 910px;
-    height: 240px;
     margin: auto;
-    border: 2px solid #252432;
-   
+    margin-top: 50px;
+    text-align: center;
+    
 }
 
 .banner_tex >h3{
@@ -93,8 +98,87 @@ h2 >.nv_logo{
   color: #252432;
   align-items: center;
   margin-bottom: 37px;
+   
 }
 
 .btn_style{
+  /* padding-bottom: 150px; */
+}
+
+/* mean body */
+.main_body{
+  background-color: #F5F8FF;
+}
+
+/* Action area style */
+
+.action_area{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
+  width: 1140px;
+  padding: 100PX 0;
+}
+
+.action_tex{
+   /* border: 2px solid black; */
+   width: 517px;
+}
+
+.action_tex >h3{
+  font-size: 42px;
+  color: #252432;
+  font-weight: 700;
+}
+
+.action_tex >p{
+  color: #25243281;
+  margin: 23px 0;
+  font-size: 25px;
+}
+
+.action_img{
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+}
+
+/* Productive_area style */
+.Productive_area{
+  width: 1140px;
+  height: 310px;
+  margin: auto;
+  background-color: #E5E7FF;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+
+.Ph_tex{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.rating{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pp_cord{
+  text-align: center;
+}
+.rating_P{
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 40px 0 -2px 0;
+  font-family: inter;
+  
+}
+
+.un_text{
+  font-size: 20px;
+  color: #00000063;
 }
